@@ -1,0 +1,460 @@
+#wrapper {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    font-family: /*"Times New Roman", Times, serif;*/ arial, sans-serif;
+}
+
+@keyframes example{
+	0%		{background-image:url("griechenland.jpg");}
+	50%		{background-image:url("griechenland1.jpg");}
+	100%	{background-image:url("griechenland3.jpg");}
+}
+
+body {
+    /*background-color: black;*/
+    /*background-image: 
+        url("bilder/griechenland.jpg");
+	background-image: 
+        url("bilder/griechenland1.jpg");*/
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed; /*fixed damit der Hintergrund fest ist*/
+	animation-name: example;
+	animation-duration: 15s;
+	/*animation-delay: -1s;*/
+	animation-iteration-count: infinite;
+    
+}
+
+header{
+	padding-top: 10px;
+	padding-bottom: 10px
+	height: 50px;
+	text-align: center;
+	opacity: 0.8;
+}
+
+nav{
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+	margin-right: 40px;
+}
+
+a{
+	color: /*#777;*/#000000;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+
+
+section {
+    width: 600px;
+    float: left;
+    padding: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: #F2F2F2;
+    border: 10px solid transparent; /*Hier habe ich 1px in 10px geändert und die farbe weggemacht vorherh #DEDCD9*/
+    /*border-image-source: url(Bilder/rahmen.png) round;*/
+    /*border-image: url(Bilder/rahmen.png) 30 20 20 10 repeat;
+	border-image: url(Bilder/frame.jpg) 40 round;*/
+    border-image: url(frame2.png) 40 round;
+    border-image-width: 2em;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /*opacity: 0.8;*/
+    background: rgba(255,255,255,0.8);
+}
+
+.article{
+	height: 120px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.article img{
+	float: left;
+	padding: 5px;
+	margin-right: 10 px;
+	border: 2px solid #DEDCD9;
+}
+
+.article a{
+	font-size: 18px;
+}
+
+aside{
+	width: 250px;
+	float: right;
+	padding: 25px;
+	margin-top: 15px;
+	background-color: #F2F2F2;
+	/*border: 1px solid #DEDCD9;*/
+	border: 1px solid transparent;
+	border-image: url(frame2.png) 40 round;
+	border-image-width: 2em;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	/*opacity: 0.8;*/
+    background: rgba(255,255,255,0.8);
+}
+
+.sidebar img{
+	padding: 5px;
+	margin-top: 20px;
+	border: 1px solid #DEDCD9;
+	height: 250px; 
+	width: 150px;
+}
+
+.sidebar a{
+	font-size: 18px;
+	padding: 1px;
+}
+
+.sidebar p {
+    padding: 1px;
+    opacity: 1;
+}
+
+
+footer{
+	background-color: #F2F2F2;
+	border: 1px solid #DEDCD9;
+	border-radius: 5px;
+	clear: both;
+	opacity: 0.8;
+}
+
+footer ul{
+	float: left;
+	list-style: none;
+	padding: 0px;
+	margin: 20px;
+}
+
+footer li{
+	margin-right: 15px;
+	display:inline;
+}
+
+footer p{
+	margin-right: 20px;
+	text-align: right;
+	color: black;
+}
+
+#über{
+	margin: 15px;
+}
+
+#über h1{
+	padding: 10px;
+}
+
+#kontakt{
+	margin: 15px;
+}
+
+#kontakt h1{
+	padding: 10px;
+}
+
+.slide-container{
+	position:relative;
+}
+			
+.kslide img{
+	width: 100%;
+	height:600px;
+}
+.effect{
+	animation-name:effect;
+	animation-duration:1s;
+	}
+@keyframes effect{
+	from{
+		opacity:0.3;
+	}
+	to{
+		opacity:1;
+	}
+}
+.dot-container{
+	text-align:center
+}
+span{
+	border-radius:50%;
+	height:15px;
+	width:15px;
+	background-color:blue;
+	display:inline-block;
+	transition:all 0.6s linear;
+}
+.active{
+background-color:red;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: /*#333;*/#F2F2F2;
+  overflow: hidden;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: /*#f2f2f2;*/ #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0174DF;
+  color: white;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8,#55e7fc);
+    /*background-color: #81BEF7;
+    border: none;
+    width: 200px;
+    */
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow:hidden;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttons {
+    display: inline-block;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    color: #f2f2f2;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+
+/*Hier die Bildschirmanpassung fuer die 
+    max-width 414 pixel und max height 830 pixel
+    min-width 360 pixel und min height 568 pixel
+    Beispiel: iPhoneX/7/8/9 und Plus
+    Pixel 2, Pixel 2XL, Galaxy S5, Moto G4
+
+*/
+@media screen and (max-height: 830px) and (min-height:568px) and (max-width:414px) and (min-width:360px){
+    #wrapper {
+        width: 90%;
+    }
+
+    section {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+    }
+
+    aside {
+        float: left;
+        width: 90%;
+    }
+
+    .article {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+        .article a {
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+
+        .article img {
+            padding-left: 20px;
+            padding-right: 30px;
+            width: 270px;
+            border: 0px;
+            border-radius: 25%;
+        }
+
+        .article p {
+            padding-left: 20px;
+            padding-right: 15px;
+        }
+
+    .button {
+        width: 220px;
+    }
+
+    iframe {
+        width: 270px;
+    }
+    .text {
+        text-align: center;
+        font: 20px Georgia, Times, sans-serif;
+        padding: 3px;
+    }
+    #bild img{
+        margin-left: 20px;
+        width: 280px;
+    }
+}
+/*Hier 
+    max-width 320 pixel
+    max-height 655 pixel
+    min-width 270 pixel
+    min-height 560 pixel
+
+*/
+@media screen and (max-height: 655px) and (min-height:560px) and (max-width:320px) and (min-width:270px) {
+    #wrapper {
+        width: 100%;
+    }
+    .topnav{
+        width: 300px;
+    }
+    section {
+        width: 310px;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+    }
+
+    aside {
+        float: left;
+        width: 90%;
+    }
+
+    .article {
+        padding-bottom: 80px;
+        padding-top: 0px;
+    }
+
+        .article a {
+            text-align:center;
+            margin-bottom: 80px;
+        }
+
+        .article img {
+            padding-left: 20px;
+            padding-right: 30px;
+            width: 250px;
+            border: 0px;
+            border-radius: 25%;
+        }
+
+        .article p {
+            /*padding-left: 20px;
+            padding-right: 20px;*/
+            text-align:center;
+        }
+
+    .button {
+        width: 200px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    background: #0008;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#pop-up {
+    width: 400px;
+    height: 300px;
+    /*background: #f2f2f2;*/
+    background-image: url("salat.jpg");
+    background-size: 400px 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+
+#close-btn{
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    float: left;
+}
+
+.text {
+    text-align: center;
+    font: 20px Georgia, Times, sans-serif;
+}
+#bild {
+    width: 100%;
+}
+
+span{
+    position: absolute;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinte;
+}
+@keyframes animate{
+    0%{
+        width: 0px;
+        height: 0px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        opacity: 0;
+    }
+}
