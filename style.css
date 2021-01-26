@@ -284,20 +284,30 @@ background-color:red;
         padding-right: 0px;
         float: left;
 		
-		border-width: 100%;
 		border-style: solid;
-		border-image: url("frame2.png") 40 round;
+    	border-width: 5px;
+		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
+		-moz-border-image: url(frame2.png) 27 repeat;
+		-webkit-border-image: url(frame2.png) 27 repeat;
+		-o-border-image: url(frame2.png) 27 repeat;
+		border-image: url(frame2.png) 27 fill repeat;
+    
     }
 
     aside {
         float: left;
         width: 90%;
 		
-		border-width: 100%;
 		border-style: solid;
-		border-image: url("frame2.png") 40 round;
+    	border-width: 5px;
+		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
+		-moz-border-image: url(frame2.png) 27 repeat;
+		-webkit-border-image: url(frame2.png) 27 repeat;
+		-o-border-image: url(frame2.png) 27 repeat;
+		border-image: url(frame2.png) 27 fill repeat;
+    
     }
 
     .article {
@@ -360,20 +370,29 @@ background-color:red;
         padding-right: 0px;
         float: left;
 		
-		border-width: 100%;
 		border-style: solid;
-		border-image: url("frame2.png") 40 round;
+    	border-width: 5px;
+		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
+		-moz-border-image: url(frame2.png) 27 repeat;
+		-webkit-border-image: url(frame2.png) 27 repeat;
+		-o-border-image: url(frame2.png) 27 repeat;
+		border-image: url(frame2.png) 27 fill repeat;
+    
     }
 
     aside {
         float: left;
         width: 90%;
 		
-		border-width: 100%;
 		border-style: solid;
-		border-image: url("frame2.png") 40 round;
+    	border-width: 5px;
+		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
+		-moz-border-image: url(frame2.png) 27 repeat;
+		-webkit-border-image: url(frame2.png) 27 repeat;
+		-o-border-image: url(frame2.png) 27 repeat;
+		border-image: url(frame2.png) 27 fill repeat;
     }
 
     .article {
