@@ -284,15 +284,14 @@ background-color:red;
         padding-right: 0px;
         float: left;
 		
-		border-style: solid;
-    	border-width: 10px;
-		border-image: url("frame2.png") 10 10 repeat;
+		border: 10px solid transparent;
+		border-image: url("frame2.png") 1 0 1 repeat;
     	border-image-width: 2em;
-		-moz-border-image: url(frame2.png) 10 10 repeat;
-		-webkit-border-image: url(frame2.png) 10 round;
-		-o-border-image: url(frame2.png) 10 10 repeat;
+		-moz-border-image: url(frame2.png) 1 0 1 repeat;
+		-webkit-border-image: url(frame2.png) 1 0 1 repeat;
+		-o-border-image: url(frame2.png) 1 0 1 repeat;
 		/*border-image: url(frame2.png) 27 fill repeat;*/
-    	border-image: url(frame2.png) 10 round;
+    	
 		
     }
 
