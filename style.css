@@ -292,7 +292,7 @@ background-color:red;
 		-webkit-border-image: url(frame2.png) 27 repeat;
 		-o-border-image: url(frame2.png) 27 repeat;
 		border-image: url(frame2.png) 27 fill repeat;
-    	/*border-image-width: 2em;*/
+    	border-image-width: 2em;
     }
 
     aside {
