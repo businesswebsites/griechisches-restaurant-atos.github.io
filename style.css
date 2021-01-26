@@ -308,6 +308,15 @@ background-color:red;
 		-o-border-image: url(frame2.png) 40 round;
     
     }
+	
+	.sidebar{
+		border: 10px solid transparent;
+		border-image: url("frame2.png") 40 round;
+    	border-image-width: 2em;
+		-moz-border-image: url(frame2.png) 40 round;
+		-webkit-border-image: url(frame2.png) 40 round;
+		-o-border-image: url(frame2.png) 40 round;
+	}
 
     .article {
         padding-bottom: 50px;
