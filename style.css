@@ -285,14 +285,14 @@ background-color:red;
         float: left;
 		
 		border-style: solid;
-    	/*border-width: 5px;*/
-		border-image: url("frame2.png") 34 34 round;
-    	border-image-width: 2em;
+    	/*border-width: 5px;
+		border-image: url("frame2.png") 34 34 round;*/
+    	
 		-moz-border-image: url(frame2.png) 27 repeat;
 		-webkit-border-image: url(frame2.png) 27 repeat;
 		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 27 fill repeat;
-    
+		border-image: url(frame2.png) 40 round;
+    	border-image-width: 2em;
     }
 
     aside {
@@ -300,13 +300,13 @@ background-color:red;
         width: 90%;
 		
 		border-style: solid;
-    	/*border-width: 5px;*/
-		border-image: url("frame2.png") 34 34 round;
-    	border-image-width: 2em;
+    	/*border-width: 5px;
+		border-image: url("frame2.png") 34 34 round;*/
 		-moz-border-image: url(frame2.png) 27 repeat;
 		-webkit-border-image: url(frame2.png) 27 repeat;
 		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 27 fill repeat;
+		border-image: url(frame2.png) 40 repeat;
+		border-image-width: 2em;
     
     }
 
@@ -372,13 +372,13 @@ background-color:red;
 		
 		border-style: solid;
     	/*border-width: 5px;*/
-		border-image: url("frame2.png") 34 34 round;
-    	border-image-width: 2em;
+		/*border-image: url("frame2.png") 34 34 round;
+    	*/border-image-width: 2em;
 		-moz-border-image: url(frame2.png) 27 repeat;
 		-webkit-border-image: url(frame2.png) 27 repeat;
 		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 27 fill repeat;
-    
+		border-image: url(frame2.png) 40 fill repeat;
+    	
     }
 
     aside {
