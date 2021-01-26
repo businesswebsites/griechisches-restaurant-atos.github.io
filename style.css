@@ -291,7 +291,7 @@ background-color:red;
 		-moz-border-image: url(frame2.png) 27 repeat;
 		-webkit-border-image: url(frame2.png) 27 repeat;
 		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 40 repeat;
+		border-image: url(frame2.png) 27 fill repeat;
     	/*border-image-width: 2em;*/
     }
 
@@ -375,7 +375,7 @@ background-color:red;
     	*/-moz-border-image: url(frame2.png) 27 repeat;
 		-webkit-border-image: url(frame2.png) 27 repeat;
 		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 40 repeat;
+		border-image: url(frame2.png) 27 fill repeat;
     	
     }
 
