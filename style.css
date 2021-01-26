@@ -283,11 +283,17 @@ background-color:red;
         padding-left: 0px;
         padding-right: 0px;
         float: left;
+		
+		border-image: url("frame2.png") 40 round;
+    	border-image-width: 2em;
     }
 
     aside {
         float: left;
         width: 90%;
+		
+		border-image: url("frame2.png") 40 round;
+    	border-image-width: 2em;
     }
 
     .article {
@@ -349,11 +355,17 @@ background-color:red;
         padding-left: 0px;
         padding-right: 0px;
         float: left;
+		
+		border-image: url("frame2.png") 40 round;
+    	border-image-width: 2em;
     }
 
     aside {
         float: left;
         width: 90%;
+		
+		border-image: url("frame2.png") 40 round;
+    	border-image-width: 2em;
     }
 
     .article {
