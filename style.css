@@ -288,11 +288,11 @@ background-color:red;
     	/*border-width: 5px;
 		border-image: url("frame2.png") 34 34 round;*/
     	border-image-width: 2em;
-		-moz-border-image: url(frame2.png) 30 30 round;
-		-webkit-border-image: url(frame2.png) 30 round;
-		-o-border-image: url(frame2.png) 30 30 round;
+		-moz-border-image: url(frame2.png) 33% round;
+		-webkit-border-image: url(frame2.png) 33% round;
+		-o-border-image: url(frame2.png) 33% round;
 		/*border-image: url(frame2.png) 27 fill repeat;*/
-    	border-image: url(frame2.png) 30 30 round;
+    	border-image: url(frame2.png) 33% round;
 		
     }
 
