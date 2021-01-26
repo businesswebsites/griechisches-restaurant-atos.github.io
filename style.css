@@ -273,7 +273,7 @@ background-color:red;
     Pixel 2, Pixel 2XL, Galaxy S5, Moto G4
 
 */
-@media screen and (max-height: 830px) and (min-height:568px) and (max-width:414px) and (min-width:360px){
+@media only screen and (max-width:414px) and (min-width:360px){
     #wrapper {
         width: 90%;
     }
@@ -337,7 +337,7 @@ background-color:red;
     min-height 560 pixel
 
 */
-@media screen and (max-height: 655px) and (min-height:560px) and (max-width:320px) and (min-width:270px) {
+@media only screen and (max-width:359px) and (min-width:270px) {
     #wrapper {
         width: 100%;
     }
