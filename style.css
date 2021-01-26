@@ -289,10 +289,10 @@ background-color:red;
 		border-image: url("frame2.png") 10 10 repeat;
     	border-image-width: 2em;
 		-moz-border-image: url(frame2.png) 10 10 repeat;
-		-webkit-border-image: url(frame2.png) 10 10 repeat;
+		-webkit-border-image: url(frame2.png) 10 round;
 		-o-border-image: url(frame2.png) 10 10 repeat;
 		/*border-image: url(frame2.png) 27 fill repeat;*/
-    	border-image: url(frame2.png) 10 10 repeat;
+    	border-image: url(frame2.png) 10 round;
 		
     }
 
