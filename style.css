@@ -286,7 +286,7 @@ background-color:red;
 		
 		border: 10px solid transparent;
 		border-image: url("frame2.png") 40 round;
-    	border-image-width: 2em;
+    	border-image-width: 10px;
 		-moz-border-image: url(frame2.png) 40 round;
 		-webkit-border-image: url(frame2.png) 40 round;
 		-o-border-image: url(frame2.png) 40 round;
