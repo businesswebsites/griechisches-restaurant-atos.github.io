@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel = "stylesheet" href ="style.css" type = "text/css"> 
+	<title>HTML | Kontakt</title>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+<body>
+	<div id = "wrapper">
+		<header> <img style="border-radius: 15px;" src="atos_logo.jpg" height="150px" width="350px"> </header>
+		
+		
+		<div class= "topnav">
+			  <a href="index.html">Home</a>
+			  <a href="speisekarte.html">Speisekarte</a>
+			  <a class="active" href="kontakt.html">Kontakt</a>
+		</div>
+		<!--
+		<nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="speisekarte.html">Speisekarte</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+		-->
+		<section> 
+			<div id="kontakt">
+				<h1>Kontakt</h1>
+				<a><strong>Name/Inhaber:</strong></a>
+				<p>Griechisches Restaurant ATOS</p>
+				<a><strong>Standort:</strong></a>
+				<p>Karl-Marx-Straße 33-34<br>16816 Neuruppin</p>
+				<a><strong>Telefonnummer:</strong></a>
+				<p> 03391 659300</p>
+				<a><strong>Anfahrt</strong></a>
+				<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2405.2823957691667!2d12.803505416175728!3d52.92534472515927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a93dae0f9f5adb%3A0xbb3546cd0e08a3b8!2sGriechisches%20Restaurant%20Atos!5e0!3m2!1sde!2sde!4v1609012868162!5m2!1sde!2sde" width="500" height="450" frameborder="0" style="border: 2px solid #DEDCD9;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+			</div>
+		</section>
+		<aside>
+		<div class="slide-container">
+			<div class="sidebar">
+				<a href="#">Unsere Öffnungszeiten:</a>
+				<div class="effect slide">
+					<img style = "border-radius:30px;" src="olymp.jpg">
+				</div>
+				<p>
+				Dienstag - Sonntag <br/>
+				16:00 - 20:00
+				</p>
+			</div>
+			<!--<div class="sidebar">
+				<a href="#">Unsere Öffnungszeiten:</a>
+				<div class="effect slide">-->
+					<!--<img src="bilder/sekt.jpg">-->
+				<!--</div>
+				<p>
+				Dienstag - Sonntag <br/>
+				16:00 - 20:00
+				</p>
+			</div>	-->
+		</div>	
+		</aside>
+		<footer>
+			<ul>
+				<li><a href="index.html">Home</a></li>	
+				<li><a href="speisekarte.html">Speisekarte</a></li>	
+				<li><a href="kontakt.html">Kontakt</a></li>			
+			</ul>
+			<p><a href ="#">&copy;2020 A. Dröse </a></p>
+		</footer>
+	</div>
+	
+	<script>
+		var index = 0;
+		show();
+		function show(){
+			var i;
+			var slides=document.getElementsByClassName("slide");
+			var dots=document.getElementsByTagName("span");
+			for(i=0; i<slides.length;i++){
+				slides[i].style.display=" none";
+			}
+			index= index+1;
+			if(index>slides.length){
+				index = 1;
+			}
+			for(i=0;i<dots.length;i++){
+				dots[i].className=dots[i].className.replace(" active","");
+			}
+			slides[index-1].style.display="block";
+			dots[index-1].className+=" active";
+			setTimeout(show,1500);
+		}
+	
+	</script>
+</body>
+
+</html>
