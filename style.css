@@ -285,7 +285,7 @@ background-color:red;
         float: left;
 		
 		border-style: solid;
-    	border-width: 5px;
+    	/*border-width: 5px;*/
 		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
 		-moz-border-image: url(frame2.png) 27 repeat;
@@ -300,7 +300,7 @@ background-color:red;
         width: 90%;
 		
 		border-style: solid;
-    	border-width: 5px;
+    	/*border-width: 5px;*/
 		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
 		-moz-border-image: url(frame2.png) 27 repeat;
@@ -371,7 +371,7 @@ background-color:red;
         float: left;
 		
 		border-style: solid;
-    	border-width: 5px;
+    	/*border-width: 5px;*/
 		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
 		-moz-border-image: url(frame2.png) 27 repeat;
@@ -386,7 +386,7 @@ background-color:red;
         width: 90%;
 		
 		border-style: solid;
-    	border-width: 5px;
+    	/*border-width: 5px;*/
 		border-image: url("frame2.png") 34 34 round;
     	border-image-width: 2em;
 		-moz-border-image: url(frame2.png) 27 repeat;
