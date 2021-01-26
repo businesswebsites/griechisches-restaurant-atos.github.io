@@ -299,13 +299,13 @@ background-color:red;
         float: left;
         width: 90%;
 		
-		border-style: solid;
-    	/*border-width: 5px;
-		border-image: url("frame2.png") 34 34 round;*/
-		-moz-border-image: url(frame2.png) 27 repeat;
-		-webkit-border-image: url(frame2.png) 27 repeat;
-		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 40 repeat;
+		
+    	border: 10px solid transparent;
+		border-image: url("frame2.png") 40 round;
+    	border-image-width: 2em;
+		-moz-border-image: url(frame2.png) 40 round;
+		-webkit-border-image: url(frame2.png) 40 round;
+		-o-border-image: url(frame2.png) 40 round;
     
     }
 
@@ -369,29 +369,25 @@ background-color:red;
         padding-right: 0px;
         float: left;
 		
-		border-style: solid;
-    	/*border-width: 5px;*/
-		/*border-image: url("frame2.png") 34 34 round;
-    	*/-moz-border-image: url(frame2.png) 27 repeat;
-		-webkit-border-image: url(frame2.png) 27 repeat;
-		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 27 fill repeat;
-    	
+    	border: 10px solid transparent;
+		border-image: url("frame2.png") 40 round;
+    	border-image-width: 2em;
+		-moz-border-image: url(frame2.png) 40 round;
+		-webkit-border-image: url(frame2.png) 40 round;
+		-o-border-image: url(frame2.png) 40 round;
     }
 
     aside {
         float: left;
         width: 90%;
 		
-		border-style: solid;
-    	/*border-width: 5px;*/
-		border-image: url("frame2.png") 34 34 round;
+		border: 10px solid transparent;
+		border-image: url("frame2.png") 40 round;
     	border-image-width: 2em;
-		-moz-border-image: url(frame2.png) 27 repeat;
-		-webkit-border-image: url(frame2.png) 27 repeat;
-		-o-border-image: url(frame2.png) 27 repeat;
-		border-image: url(frame2.png) 27 fill repeat;
-    }
+		-moz-border-image: url(frame2.png) 40 round;
+		-webkit-border-image: url(frame2.png) 40 round;
+		-o-border-image: url(frame2.png) 40 round;	
+	}
 
     .article {
         padding-bottom: 80px;
