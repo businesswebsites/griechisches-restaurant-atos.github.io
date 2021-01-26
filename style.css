@@ -291,8 +291,9 @@ background-color:red;
 		/*-moz-border-image: url(frame2.png) 40 repeat;
 		-webkit-border-image: url(frame2.png) 40 repeat;
 		-o-border-image: url(frame2.png) 40 repeat;*/
-		border-image: url(frame2.png) 27 repeat;
-    	
+		/*border-image: url(frame2.png) 27 fill repeat;
+    	*/border-image: url(frame2.png) round;
+		border-image-slice: 6;
     }
 
     aside {
