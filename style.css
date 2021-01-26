@@ -293,7 +293,8 @@ background-color:red;
 		-o-border-image: url(frame2.png) 40 repeat;*/
 		/*border-image: url(frame2.png) 27 fill repeat;
     	*/border-image: url(frame2.png) round;
-		border-image-slice: 6;
+		border: 10px solid blue !important;
+		border-image: url(frame2.png) 20% stretch;
     }
 
     aside {
