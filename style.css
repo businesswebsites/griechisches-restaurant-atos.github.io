@@ -480,10 +480,10 @@ background-color:red;
 
 #pop-up {
     width: 400px;
-    height: 300px;
+    height: 350px;
     /*background: #f2f2f2;*/
     background-image: url("salat.jpg");
-    background-size: 400px 300px;
+    background-size: 400px 350px;
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
