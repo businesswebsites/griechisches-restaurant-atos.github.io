@@ -358,11 +358,11 @@ background-color:red;
         width: 280px;
     }
 	#pop-up {
-    width: 400px;
+    width: 100%;
     height: 420px;
     /*background: #f2f2f2;*/
     background-image: url("salat.jpg");
-    background-size: 400px 420px;
+    background-size: 100% 420px;
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
@@ -445,11 +445,11 @@ background-color:red;
         width: 100%;
     }
 	#pop-up {
-    width: 400px;
+    width: 100%;
     height: 420px;
     /*background: #f2f2f2;*/
     background-image: url("salat.jpg");
-    background-size: 400px 420px;
+    background-size: 100% 420px;
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
