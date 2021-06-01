@@ -358,11 +358,11 @@ background-color:red;
         width: 280px;
     }
 	#pop-up {
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 420px;
     /*background: #f2f2f2;*/
     background-image: url("salat.jpg");
-    background-size: 350px 500px;
+    background-size: 400px 420px;
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
@@ -371,7 +371,7 @@ background-color:red;
     transform: translate(-50%, -50%);
     border-radius: 4px;
     border: 2px solid white;
-}
+	}
 }
 /*Hier 
     max-width 320 pixel
@@ -445,11 +445,11 @@ background-color:red;
         width: 100%;
     }
 	#pop-up {
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 420px;
     /*background: #f2f2f2;*/
     background-image: url("salat.jpg");
-    background-size: 350px 500px;
+    background-size: 400px 420px;
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
@@ -458,7 +458,7 @@ background-color:red;
     transform: translate(-50%, -50%);
     border-radius: 4px;
     border: 2px solid white;
-}
+	}
 }
 
 
