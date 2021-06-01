@@ -362,7 +362,7 @@ background-color:red;
     height: 500px;
     /*background: #f2f2f2;*/
     background-image: url("salat.jpg");
-    background-size: 500px 400px;
+    background-size: 350px 500px;
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
@@ -449,7 +449,7 @@ background-color:red;
     height: 500px;
     /*background: #f2f2f2;*/
     background-image: url("salat.jpg");
-    background-size: 500px 400px;
+    background-size: 350px 500px;
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
